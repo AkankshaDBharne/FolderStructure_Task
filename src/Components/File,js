@@ -1,0 +1,13 @@
+import React from 'react';
+
+function File({ name }) {
+  return (
+    <div className="file">
+     <span role="img" aria-label="file-icon">
+        📄
+      </span> {name}
+    </div>
+  );
+}
+
+export default File;
